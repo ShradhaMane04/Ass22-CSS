@@ -1,20 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafe Aroma</title>
+    <title>Star Market</title>
+    <link rel="stylesheet" href="./css/style.css" />
     <style>
-        body{
-            background-color:antiquewhite;
-        }
-        .main-heading{
-            color:brown;
+        body {
+            margin: 0%;
+            padding: 0%;
 
+        }
+        .heading {
+            text-align: center;
+            color: rgb(11, 5, 11);
+            font-size: 80px;
+        }
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            color: black;
+        }
+
+        .btn {
+            border: 1px solid gray;
+            border-radius: 20px;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-top: 0px;
+            padding: 20px;
+            background-color: rgb(74, 48, 30);
+            color: rgb(240, 234, 234);
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .btn:hover {
+            box-shadow: 0px 0px 10px 2px gray;
+        }
+
+        .offer-container {
+            display:flex;
+            justify-content:space-evenly;
+            padding: 20px;
+            border: 1px solid;
+        }
+
+        .container-cards {
+            margin-left: 10px;
+            margin-right: 10px;
+            border: 0.5px gray;
+            border-radius: 20px;
+
+        }
+
+        .note {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .tata-main-img {
+            height: 450px;
+            width: 1300px;
+            margin: 40px;
+        }
+
+        .bru-main-img {
+            justify-content: center;
+            margin: 10px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .freshly {
+            height: 470px;
+            width: 1150px;
+            margin: 40px;
+        }
+
+        .img-head {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 40px;
+            cursor: pointer;
+        }
+
+        .img-head:hover {
+            box-shadow: 0px 0px 10px 2px grey;
         }
     </style>
 </head>
+
 <body>
-    
+    <h1 class="heading">Star Market</h1>\
+
+    <div class="btn-container">
+        <a href="./pages/products.html"><button class="btn"><b>Products</b></button></a>
+        <a href="./pages/contact.html"><button class="btn"><b>Contact</b></button></a>
+    </div>
+
+    <hr />
+
+    <h1 class="note"> Buy 1 Get 1 FREE !!!🤩🤩🤩</h1>
+
+    <div class="offer-container">
+        <div class="img-head">
+            <b>TATA</b>
+            <img src="./img/tata-main-img.jpg" class="tata-main-img">
+        </div>
+    </div>
+
+
+    <div class="offer-container">
+        <div class="img-head">
+            <b>Bru</b>
+            <img src="./img/bru-main-img.jpg" class="bru-main-img">
+
+        </div>
+
+    </div>
+
+    <div class="offer-container">
+        <div class="img-head">
+            <b>Nescafe</b>
+            <img src="./img/nescafe-main-img.jpg" class="bru-main-img">
+        </div>
+    </div>
+
+    <div class="offer-container">
+        <div class="img-head">
+            <b>Mokkafarms</b>
+            <img src="./img/freshly-main-img.jpg" class="freshly">
+        </div>
+    </div>
 </body>
 </html>
