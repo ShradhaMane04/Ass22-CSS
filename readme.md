@@ -9,7 +9,7 @@
 # Tata:
  ######  ![alt text](./img/tata-grand-bottle.jpg) 
 # Bru:
-######  ![alt text](./img/bru-can.jpg)
+######  ![alt text](./img/bru-original.jpeg)
 # Nescafe:
  ######  ![alt text](./img/nes-clasico.webp)
  # Mokkafarms:
